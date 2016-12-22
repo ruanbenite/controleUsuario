@@ -1,9 +1,9 @@
 <?php
-$dsn="mysql:dbname=cliente658;host=localhost";
+$dsn="mysql:dbname=usuarios;host=localhost";
 $dbuser="root";
 $dbpass="";
 try{
     $pdo = new PDO($dsn, $dbuser, $dbpass);
 } catch (PDOException $ex) {
-    echo 'Falha na conexão com o banco'. $ex->getMessage();
+    echo 'Falha na conexï¿½o com o banco'. $ex->getMessage();
 }
